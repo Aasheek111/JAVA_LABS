@@ -1,0 +1,34 @@
+
+
+public class Student {
+
+    String name;
+    int roll;
+    float marks;
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setRoll(int roll) {
+        this.roll = roll;
+    }
+
+    public void setMarks(float marks) {
+        this.marks = marks;
+    }
+
+    public void display() {
+        System.out.println(name + "  "+roll +"  "+ marks);
+    }
+
+    public static void main(String[] args) {
+
+        Student s1 = new Student();
+        s1.setMarks(12);
+        s1.setName("Aashik");
+        s1.setRoll(1);
+        s1.display();
+
+    }
+}
