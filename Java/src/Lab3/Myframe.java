@@ -2,6 +2,7 @@ import javax.swing.*;
 import java.awt.*;
 
 public class Myframe {
+//r u serious ??
     public static void main(String[] args) {
 
         JFrame frame = new JFrame("From");
