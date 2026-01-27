@@ -1,0 +1,10 @@
+# Ignore Java compiled files
+*.class
+
+# Ignore output folders
+bin/
+out/
+target/
+
+# Ignore VS Code settings (optional)
+.vscode/
