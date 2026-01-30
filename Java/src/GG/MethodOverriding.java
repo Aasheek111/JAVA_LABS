@@ -2,18 +2,13 @@ class Parent {
     void print() {
         System.out.println("Hello i am parent class");
     }
-
 }
-
 class Child extends Parent {
     @Override
     void print() {
-
         System.out.println("Hello i am child class ");
     }
-
 }
-
 public class MethodOverriding {
 
     public static void main(String[] args) {
